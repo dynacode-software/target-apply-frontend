@@ -1,0 +1,25 @@
+:root {
+  /* Colores */
+  --navy: #0D1B2A;
+  --gold: #C8922A;
+  --cream: #F2EAD8;
+  --cream-dark: #EDE5D4;
+  --border: #DDD6C6;
+  --text-muted: #6B6050;
+  --text-soft: #9A9080;
+  --white: #FFFFFF;
+
+  /* Tipografía */
+  --font-serif: 'Instrument Serif', Georgia, serif;
+  --font-sans: 'DM Sans', sans-serif;
+
+  /* Layout */
+  --container-max: 80rem;
+  --radius-sm: .5rem;
+  --radius-md: .75rem;
+  --radius-full: 999px;
+
+  /* Sombras */
+  --shadow-card: 0 2px 16px rgba(13, 27, 42, .07);
+  --shadow-card-hover: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .1);
+}

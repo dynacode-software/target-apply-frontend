@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Target Apply guides students from application to arrival — matching you with partner universities across Istanbul, Ankara and beyond, in your language." />
+  <title>Target Apply — Your future studies in Turkey, mapped out</title>
+
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/components.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header" id="header"></header>
+    <main><div id="pageRoot">
+      <noscript>
+        <section class="hero"><div class="container hero__inner">
+          <h1 class="hero__title">Your future studies in Turkey, mapped out.</h1>
+          <p class="hero__subtitle">Target Apply guides students from application to arrival — matching you with partner universities across Istanbul, Ankara and beyond, in your language. Please enable JavaScript to use this site.</p>
+        </div></section>
+      </noscript>
+    </div></main>
+    <footer class="site-footer" id="footer"></footer>
+  </div>
+
+  <!-- Núcleo: datos, idioma, layout -->
+  <script src="js/i18n.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/layout.js"></script>
+
+  <!-- Vistas: cada una se registra en window.TA_PAGES -->
+  <script src="js/pages/home.js"></script>
+  <script src="js/pages/universities.js"></script>
+  <script src="js/pages/university.js"></script>
+  <script src="js/pages/programs.js"></script>
+  <script src="js/pages/about.js"></script>
+  <script src="js/pages/blog.js"></script>
+  <script src="js/pages/blog-post.js"></script>
+  <script src="js/pages/contact.js"></script>
+
+  <!-- Router: decide qué vista pintar según el hash de la URL -->
+  <script src="js/router.js"></script>
+</body>
+</html>
